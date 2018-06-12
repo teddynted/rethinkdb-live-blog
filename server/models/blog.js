@@ -18,7 +18,6 @@ class blog {
         });
       },
       function(con,callback) {
-        console.log(fields.post);
         let post = Object.assign({}, {
           'post': fields.post
         });
